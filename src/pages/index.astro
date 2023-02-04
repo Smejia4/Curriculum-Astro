@@ -1,5 +1,8 @@
 ---
+import '../styles/style.css'
 import Header from "../layouts/Header/Header.astro";
+import MainContent from "../layouts/MainContent/MainContent.astro";
+import ContentImage from "../layouts/ContentImage/ContentImage.astro";
 ---
 
 <html lang="en">
@@ -8,10 +11,13 @@ import Header from "../layouts/Header/Header.astro";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Samuel Mejía</title>
 	</head>
 	<body>
 		<Header />
-		<h1>Astro</h1>
+		<main>
+			<MainContent />
+			<ContentImage />
+		</main>
 	</body>
 </html>

@@ -1,4 +1,7 @@
 .list{
     display: inline;
     padding: 15px;
+    font-size: 2rem;
+    margin:2rem;
+    text-decoration: 0px;
 }
